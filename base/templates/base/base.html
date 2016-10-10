@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+    <head>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <!-- Local -->
+         <link rel="stylesheet" href="{% static 'css/default.css' %}">
+        <!-- Google -->
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Lobster" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>LaPos</title>
+        <style>
+            {% block style%}{% endblock%}
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-default navbar-static-top navbar-bgcolor" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#">
+                    <span class="sr-only">Show/Hide nav bar</span>
+                </button>
+            </div>
+
+            <ul class="nav navbar-nav " >
+
+                <li role="presentation"><a href="{% url 'index'%}">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="wrap">
+        <div id="main">
+
+            {% block content %}
+            {% endblock %}
+
+        </div> <!-- Container -->
+    </div><!-- wrap div end-->
+                                 <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-social">
+                        <div class="container text-center">
+                            <ul class="list-inline">
+                                <li class="social-github">
+                                    <a href=""><i class="fa fa-github fa-3x"></i></a>
+                                </li>
+                                <li class="social-twitter">
+                                    <a href=""><i class="fa fa-twitter fa-3x"></i></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href=""><i class="fa fa-facebook fa-3x"></i></a>
+                                </li>
+                                <li class="social-google-plus">
+                                    <a href=""><i class="fa fa-google-plus fa-3x"></i></a>
+                                </li>
+                            </ul>
+                        </div><!-- end container -->
+                    </div><!-- end footer-social -->
+
+                    <br><br>
+                    <div class="col-md-7">
+                        <div class="footer-main">
+                            <div class="container">
+                                LaPos<a href="http://lapos.tk"></a> <br />
+                                License<a href="#"></a>.
+                                <br>
+                                &copy LaPos 2016
+                            </div><!-- end container -->
+                        </div><!-- end footer-main -->
+                    </div>
+                    <div class="col-md-3">
+                        <a id="back-to-top" class="btn btn-primary btn-lg back-to-top pull-right" href="#top">
+                            Back to top
+                            <i class="fa fa-caret-up" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div><!--end row-->
+            </div><!-- end container -->
+        </footer>
+
+        <!-- Javascript include -->
+        <script src="https://use.fontawesome.com/ea89b5c348.js"></script>
+    </body>
+</html>
