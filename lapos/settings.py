@@ -139,6 +139,6 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'emeraldlinux@gmail.com'
-EMAIL_HOST_PASSWORD = 'Hackthis12'
+EMAIL_HOST_PASSWORD = 'hostpasswd'
 SERVER_EMAIL = 'emaraldlinux@gmail.com'
 DEFAULT_FROM_EMAIL = 'LaPOS'
