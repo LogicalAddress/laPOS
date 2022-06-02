@@ -18,7 +18,7 @@ Flask==0.10.1
 Flask-Bcrypt==0.7.1
 Flask-Mail==0.9.1
 GDAL==2.1.1
-html5lib==0.9999999
+html5lib==0.99999999
 ipaddr==2.1.11
 IPy==0.83
 itsdangerous==0.24
