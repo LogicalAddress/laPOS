@@ -33,7 +33,7 @@ mercurial==3.9.1
 netsnmp-python==1.0a1
 newt-syrup==0.2.0
 Numberjack==1.1.4
-numpy==1.11.2
+numpy==1.22.0
 packaging==16.7
 Pillow==3.1.0
 psutil==4.3.1
