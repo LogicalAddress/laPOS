@@ -51,7 +51,7 @@ python-musicbrainz==0.0.0
 pyttsx==1.1
 rados==0
 rbd==0
-reportlab==3.2.0
+reportlab==3.5.55
 requests==2.11.1
 six==1.10.0
 startupmanager==1.9.13
