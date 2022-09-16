@@ -27,7 +27,7 @@ libvirt-python==2.2.0
 logilab-common==1.1.0
 logilab-constraint==0.6.0
 louis==3.0.0
-Mako==1.0.4
+Mako==1.2.2
 MarkupSafe==0.23
 mercurial==3.9.1
 netsnmp-python==1.0a1
